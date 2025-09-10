@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Greybg"
+    tools:context=".présentation.vue.DetailReservationVue">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/design" />
+
+    <ImageView
+        android:id="@+id/backArrow"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_margin="16dp"
+        android:contentDescription="Retour"
+        android:src="@drawable/arrow_back"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/propertyImage"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_below="@id/backArrow"
+        android:layout_marginTop="15dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/imageframe"
+        android:clipToOutline="true"
+        android:src="@drawable/room1" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/propertyImage"
+        android:layout_above="@+id/footer">
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/propertyTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Resort Madrid Hotel"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <TextView
+                android:id="@+id/propertyPrix"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/prixpropriete"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/locationText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Madrid, Espagne"
+                android:textColor="#777777"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/dateArrivee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_arrivee"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="8dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/dateDepart"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_depart"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:layout_marginTop="4dp"
+                android:gravity="center" />
+
+            <TextView
+                android:id="@+id/Locataire"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginTop="16dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp"
+        android:layout_alignParentBottom="true"
+        android:background="#FFFFFF"
+        android:gravity="center_vertical|center_horizontal">
+
+        <Button
+            android:id="@+id/AnnulerReservationButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/annuler_votre_r_servation"
+            android:backgroundTint="#000000"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:padding="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+
+
+
+    <LinearLayout
+        android:id="@+id/roomAccueilSelect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+
+        <ImageView
+            android:id="@+id/proprietePhoto"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="8dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/room1"
+            android:background="@drawable/imageframe"
+            android:clipToOutline="true" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/proprieteTitre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Madrid, Espagne"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/proprieteDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resort Madrid Hotel"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/proprietePrix"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/prixpropriete"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/prochaineDisponibilite"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/prochaineDisponibiliteDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/prochaineDisponibiliteDate"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="395dp"
+        android:layout_height="1dp"
+        android:background="@color/SearchBoxBg"
+        app:layout_constraintTop_toBottomOf="@+id/roomAccueilSelect"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="15dp" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

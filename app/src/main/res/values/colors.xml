@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Greybg">#EFF0F3</color>
+    <color name="SearchBoxBg">#D9D9D9</color>
+    <color name="FilterIconBg">#C0C0C0</color>
+
+    <color name="BgColor">#FFF2ECF6</color>
+    <color name="IconColor">#4A4459</color>
+</resources>

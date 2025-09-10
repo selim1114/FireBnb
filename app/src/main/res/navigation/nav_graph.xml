@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/accueil">
+
+    <fragment
+        android:id="@+id/accueil"
+        android:name="com.example.firebnb.présentation.vue.AccueilVue"
+        android:label="fragment_accueil"
+        tools:layout="@layout/fragment_accueil_vue" >
+        <action
+            android:id="@+id/action_accueil_to_filtre"
+            app:destination="@id/filtre" />
+        <action
+            android:id="@+id/action_accueil_to_historique"
+            app:destination="@id/historique" />
+        <action
+            android:id="@+id/action_accueil_to_propriete"
+            app:destination="@id/propriete" />
+    </fragment>
+    <fragment
+        android:id="@+id/filtre"
+        android:name="com.example.firebnb.présentation.vue.FiltreVue"
+        android:label="fragment_filtre"
+        tools:layout="@layout/fragment_filtre_vue" >
+        <action
+            android:id="@+id/action_filtre_to_accueil"
+            app:destination="@id/accueil" />
+    </fragment>
+    <fragment
+        android:id="@+id/historique"
+        android:name="com.example.firebnb.présentation.vue.HistoriqueVue"
+        android:label="fragment_historique"
+        tools:layout="@layout/fragment_historique_vue">
+        <action
+            android:id="@+id/action_historique_to_detailReservation"
+            app:destination="@id/detailReservation" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservations_historique"
+        android:name="com.example.firebnb.présentation.vue.ReservationsHistoriqueVue"
+        android:label="fragment_reservations_historique"
+        tools:layout="@layout/fragment_reservations_historique_vue" />
+    <fragment
+        android:id="@+id/reservations_en_cours"
+        android:name="com.example.firebnb.présentation.vue.ReservationsEnCoursVue"
+        android:label="fragment_reservations_en_cours"
+        tools:layout="@layout/fragment_reservations_en_cours_vue" >
+        <action
+            android:id="@+id/action_reservations_en_cours_to_detailReservation"
+            app:destination="@id/detailReservation" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_profil"
+        android:name="com.example.firebnb.présentation.vue.ProfilVue"
+        android:label="fragment_profil" />
+    <fragment
+        android:id="@+id/propriete"
+        android:name="com.example.firebnb.présentation.vue.DetailVue"
+        android:label="Propriété">
+        <action
+            android:id="@+id/action_propriete_to_historique"
+            app:destination="@id/historique" />
+        <action
+            android:id="@+id/action_propriete_to_accueil"
+            app:destination="@id/accueil" />
+        <action
+            android:id="@+id/action_propriete_to_reservations_en_cours"
+            app:destination="@id/reservations_en_cours" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoris"
+        android:name="com.example.firebnb.présentation.vue.ProprieteFavorisVue"
+        android:label="ProprieteFavorisVue">
+        <action
+            android:id="@+id/action_favoris_to_propriete"
+            app:destination="@id/propriete" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailReservation"
+        android:name="com.example.firebnb.présentation.vue.DetailReservationVue"
+        android:label="fragment_detail_reservation"
+        tools:layout="@layout/fragment_detail_reservation" />
+
+</navigation>

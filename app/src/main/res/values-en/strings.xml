@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="en_cours">On going</string>
+    <string name="historique">History</string>
+    <string name="historique_reservations">Reservations\' history</string>
+    <string name="reservations_en_cours">On going reservations</string>
+    <string name="AucuneDate">No date selected</string>
+    <string name="SélectionDates">Select a from and to date</string>
+    <string name="NombrePersonnes">Number of guest</string>
+    <string name="PrixParNuit">Price per night: %1$s </string>
+    <string name="prochaineDisponibilite">Next disponibility:</string>
+    <string name="prochaineDisponibiliteDate">from %1$s to %2$s:</string>
+    <string name="prixpropriete">%1$s</string>
+    <string name="rechercher">Search</string>
+    <string name="propos_de_ce_logement">About this lodging </string>
+    <string name="nombre_de_chambres_disponibles">Number of available bedrooms: </string>
+    <string name="pour_votre_confort">Perks and features</string>
+    <string name="pour_vous_situer">Locate yourself</string>
+    <string name="r_server_maintenant">Book now</string>
+    <string name="DateReserve">From %1$s to %2$s</string>
+    <string name="DateReservePlaceholder">From … to …</string>
+    <string name="choisir_une_date">Select a date</string>
+    <string name="annuler_votre_r_servation">Cancel your reservation</string>
+    <string name="date_arrivee">Arriving date : 2024-08-22</string>
+    <string name="date_depart">Leaving date : 2024-08-30</string>
+    <string name="capacite_maximale">Maximum capacity : </string>
+    <string name="nombre_de_salles_de_bain">Number of bathrooms : </string>
+
+    <string name="Confirmation_annulation_title">Cancel confirmation</string>
+    <string name="Confirmation_annulation_msg">Are you sure you want to cancel this reservation ?</string>
+    <string name="Confirmation_reservation_title">Cancel confirmation</string>
+    <string name="ConfirmReservation">Do you really want to book from</string>
+    <string name="au">to</string>
+
+    <string name="SelectDateFirstError">Confirmation de réservation</string>
+
+    <string name="confirmer">Confirm</string>
+    <string name="annuler">Cancel</string>
+    <string name="oui">Yes, cancel</string>
+    <string name="non">No</string>
+    <string name="ReservationNonExistant">No reservation to cancel.</string>
+    <string name="IdNonFourni">No reservation identifier provided</string>
+    <string name="propri_t_favoris">Favorite Property</string>
+    <string name="removeFromFavorites" />
+    <string name="added_to_favorites">Ajouté aux favoris</string>
+    <string name="removed_from_favorites">Retiré des favoris</string>
+    <string name="disponibilite">Disponibility</string>
+
+
+</resources>

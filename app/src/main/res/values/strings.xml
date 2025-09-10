@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name" translatable="false">Firebnb</string>
+    <string name="en_cours">En cours</string>
+    <string name="historique">Historique</string>
+    <string name="historique_reservations">Historique des réservations</string>
+    <string name="reservations_en_cours">Réservations en cours</string>
+    <string name="AucuneDate">Aucune date sélectionnée</string>
+    <string name="SélectionDates">Sélectionner une date d\'arrivé et de départ</string>
+    <string name="NombrePersonnes">Nombre d\'invités: </string>
+    <string name="PrixParNuit">Prix par nuit %1$s</string>
+    <string name="prochaineDisponibilite">Prochaine disponibilité:</string>
+    <string name="prochaineDisponibiliteDate">du %1$s au %2$s</string>
+    <string name="prixpropriete">%1$s</string>
+    <string name="rechercher">Rechercher</string>
+    <string name="propos_de_ce_logement">À propos de ce logement</string>
+    <string name="nombre_de_chambres_disponibles">Nombre de chambres disponibles: </string>
+    <string name="pour_votre_confort">Pour votre confort</string>
+    <string name="pour_vous_situer">Pour vous situer</string>
+    <string name="r_server_maintenant">Réserver maintenant</string>
+    <string name="DateReserve">Du %1$s au %2$s</string>
+    <string name="DateReservePlaceholder">Du … au …</string>
+    <string name="choisir_une_date">Choisir une date</string>
+    <string name="annuler_votre_r_servation">Annuler votre réservation</string>
+    <string name="date_arrivee">Date d\'arrivée : %1$s</string>
+    <string name="date_depart">Date de départ : %1$s</string>
+
+    <string name="capacite_maximale">Capacité maximale : </string>
+    <string name="nombre_de_salles_de_bain">Nombre de salles de bain : </string>
+    <string name="Confirmation_annulation_title">Confirmation d\'annulation</string>
+    <string name="Confirmation_annulation_msg">Êtes-vous sûr de vouloir annuler cette réservation ?</string>
+    <string name="Confirmation_reservation_title">Confirmation de réservation</string>
+    <string name="ConfirmReservation">Voulez-vous vraiment réserver du</string>
+    <string name="au">Voulez-vous vraiment réserver du</string>
+
+    <string name="SelectDateFirstError">Veuillez sélectionner des dates avant de réserver.</string>
+
+    <string name="confirmer">Confirmer</string>
+    <string name="annuler">Annuler</string>
+    <string name="oui">Oui, annuler</string>
+    <string name="non">Non</string>
+    <string name="ReservationNonExistant">Aucune réservation à annuler.</string>
+    <string name="IdNonFourni">Aucun identifiant de réservation fourni.</string>
+    <string name="propri_t_favoris">Propriété favoris</string>
+    <string name="removeFromFavorites" />
+    <string name="added_to_favorites">Ajouté aux favoris</string>
+    <string name="removed_from_favorites">Retiré des favoris</string>
+    <string name="disponibilite">Disponibilité</string>
+
+</resources>

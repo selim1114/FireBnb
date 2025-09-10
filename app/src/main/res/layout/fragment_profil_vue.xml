@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/Greybg"
+    android:layout_height="match_parent"
+    tools:context=".présentation.vue.FiltreVue">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/design" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="250dp"
+        android:layout_height="158dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="20dp"
+        android:paddingTop="30dp"
+        android:src="@drawable/img" />
+
+    <FrameLayout
+        android:id="@+id/bottomSquare"
+        android:layout_width="match_parent"
+        android:layout_height="541dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/carre">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:gravity="center_horizontal">
+
+            <TextView
+                android:id="@+id/userPrénom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:gravity="top|center_horizontal"
+                android:text="Utilisateur"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:paddingTop="8dp"
+                android:paddingBottom="8dp"/>
+
+            <FrameLayout
+                android:id="@+id/profilcarre"
+                android:layout_width="350dp"
+                android:layout_height="450dp"
+                android:layout_gravity="center"
+                android:background="@drawable/profil">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="16dp"
+                    android:gravity="center_horizontal">
+
+                    <TextView
+                        android:id="@+id/utilisateurNomEtPrénom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nom et prénom \n Josephine Barbier"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp"
+                        android:gravity="start" />
+
+                    <TextView
+                        android:id="@+id/utilisateurtTelephone"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Téléphone\n+1 (514)-332-2244"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp"
+                        android:gravity="start" />
+
+                    <TextView
+                        android:id="@+id/utilisateurEmail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Email :\n josephineexemple@gmail.com"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp"
+                        android:gravity="start" />
+
+                    <TextView
+                        android:id="@+id/utilisateurSexe"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sexe :\n Femme"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp"
+                        android:gravity="start" />
+
+                    <TextView
+                        android:id="@+id/utilisateurDate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Membre depuis :\n 2024-10-21"
+                        android:paddingTop="16dp"
+                        android:textSize="20sp"
+                        android:gravity="start" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+</FrameLayout>
