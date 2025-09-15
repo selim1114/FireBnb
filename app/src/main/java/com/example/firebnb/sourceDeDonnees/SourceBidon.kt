@@ -109,7 +109,17 @@ class SourceBidon : SourceDeDonnées {
             photo = "room2",
             equipements = arrayListOf("Wi-Fi", "Parking", "Piscine"),
             dateDisponible = arrayListOf(
-                DateInterval(1733070000000, 1733329200000)
+                DateInterval(1762310400000, 1762483200000),
+                DateInterval(1762569600000, 1762828800000),
+                DateInterval(1762915200000, 1763260800000),
+                DateInterval(1763347200000, 1763520000000),
+                DateInterval(1763606400000, 1764038400000),
+                DateInterval(1764124800000, 1764384000000),
+                DateInterval(1764470400000, 1764643200000),
+                DateInterval(1764729600000, 1765334400000),
+                DateInterval(1765420800000, 1765680000000),
+                DateInterval(1765766400000, 1766112000000),
+                DateInterval(1766198400000, 1766371200000)
             ),
             animauxAcceptes = true
         ),
@@ -127,7 +137,7 @@ class SourceBidon : SourceDeDonnées {
             photo = "room3",
             equipements = arrayListOf("Wi-Fi", "Cuisine", "Balcon"),
             dateDisponible = arrayListOf(
-                DateInterval(1733070000000, 1733329200000)
+                DateInterval(1763433600000, 1764038400000)
             ),
             animauxAcceptes = false
         ),
@@ -145,7 +155,7 @@ class SourceBidon : SourceDeDonnées {
             photo = "room5",
             equipements = arrayListOf("Wi-Fi", "Cheminée", "Terrasse", "Vue sur les montagnes"),
             dateDisponible = arrayListOf(
-                DateInterval(1733070000000, 1733329200000)
+                DateInterval(1764739200000, 1764998400000)
             ),
             animauxAcceptes = true
         ),
@@ -163,7 +173,7 @@ class SourceBidon : SourceDeDonnées {
             photo = "room4",
             equipements = arrayListOf("Wi-Fi", "Cuisine équipée", "Balcon"),
             dateDisponible = arrayListOf(
-                DateInterval(1733070000000, 1733329200000)
+                DateInterval(1766870400000, 1767302400000)
             ),
             animauxAcceptes = false
         ),
@@ -217,8 +227,7 @@ class SourceBidon : SourceDeDonnées {
             photo = "room9",
             equipements = arrayListOf("Wi-Fi", "Jardin", "Barbecue", "Parking gratuit"),
             dateDisponible = arrayListOf(
-                DateInterval(1733070000000, 1733329200000)
-            ),
+                DateInterval(1762742400000, 1763088000000)),
             animauxAcceptes = true
         ),
         Propriete(
