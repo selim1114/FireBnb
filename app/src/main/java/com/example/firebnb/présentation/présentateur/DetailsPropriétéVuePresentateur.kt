@@ -13,6 +13,7 @@ import kotlinx.coroutines.withContext
 import android.icu.util.DateInterval
 import android.os.Build
 import android.provider.CalendarContract
+import android.util.Log
 import android.widget.Toast
 import androidx.annotation.RequiresApi
 import com.example.firebnb.R
@@ -46,6 +47,7 @@ class DetailsPropriétéVuePresentateur (
                 }
             } catch (e: Exception) {
                 view.afficherErreur("Erreur lors de la récupération de la propriété: ${e.message}")
+                Log.d("message d'erreure", "${e.message} ")
             }
         }
     }

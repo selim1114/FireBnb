@@ -56,6 +56,7 @@ class DetailVue : Fragment(), OnMapReadyCallback {
     private var estAimé : Boolean = false
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
     }
@@ -160,13 +161,22 @@ class DetailVue : Fragment(), OnMapReadyCallback {
         view.findViewById<TextView>(R.id.priceText).text = getString(R.string.PrixParNuit, getFormattedCurrency(propriete.prix.toDouble()))
         view.findViewById<TextView>(R.id.capacite_maximale).text = propriete.capaciteMax
         view.findViewById<TextView>(R.id.nombre_de_salles_de_bain).text = propriete.nbSallesDeBain
-
-
         val proprietePhoto = view.findViewById<ImageView>(R.id.propertyImage)
-        Glide.with(view.context)
-            .load(propriete.photo)
-            .apply(RequestOptions().placeholder(R.drawable.image_par_defaut).error(R.drawable.image_par_defaut))
-            .into(proprietePhoto)
+        val resId = view.context.resources.getIdentifier(
+            propriete.photo,
+            "drawable",
+            view.context.packageName
+        )
+
+       proprietePhoto.setImageResource(
+           if (resId !=0) resId else R.drawable.image_par_defaut
+       )
+
+       // val proprietePhoto = view.findViewById<ImageView>(R.id.propertyImage)
+       // Glide.with(view.context)
+        //    .load(propriete.photo)
+         //   .apply(RequestOptions().placeholder(R.drawable.image_par_defaut).error(R.drawable.image_par_defaut))
+         //   .into(proprietePhoto)
         presentateur.getlisteDateContrainte(propriete.dateDisponible)
     }
     override fun onMapReady(googleMap: GoogleMap) {

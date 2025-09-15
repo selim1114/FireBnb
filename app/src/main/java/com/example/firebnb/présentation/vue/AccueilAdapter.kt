@@ -46,19 +46,18 @@ class AccueilAdapter(
                 convertClosestDate(model.dateDisponible, "from"),
                 convertClosestDate(model.dateDisponible, "to")
             )
-
-            // model.photo contains a drawable name like "room1"
-            val imgName = model.photo
-            val resId = itemView.resources.getIdentifier(
-                imgName,
+            val context = proprietePhoto.context
+            val imageResId = context.resources.getIdentifier(
+                model.photo,
                 "drawable",
-                itemView.context.packageName
+                context.packageName
+            )
+            proprietePhoto.setImageResource(
+                if (imageResId != 0) imageResId else R.drawable.image_par_defaut
             )
 
-            if (resId != 0) {
-                proprietePhoto.setImageResource(resId)
-            } else {
-                proprietePhoto.setImageResource(R.drawable.image_par_defaut)
+            itemView.setOnClickListener {
+                listener?.onItemClick(model.id)
             }
         }
     }

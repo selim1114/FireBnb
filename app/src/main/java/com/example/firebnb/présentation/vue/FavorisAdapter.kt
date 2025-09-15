@@ -32,12 +32,23 @@ class FavorisAdapter(
             prixTotal.text = "Prix : ${model.prix} $"
             ville.text = model.adresse.split(",").firstOrNull()
             pays.text = model.adresse.split(",").lastOrNull()
+            val context = headerImage.context
+            val imageResId = context.resources.getIdentifier(
+                model.photo,
+                "drawable",
+                context.packageName
+            )
+            headerImage.setImageResource(
+                if( imageResId !=0) imageResId else R.drawable.image_par_defaut
+            )
 
-            Glide.with(headerImage.context)
-                .load(model.photo)
-                .placeholder(R.drawable.image_par_defaut)
-                .error(R.drawable.image_par_defaut)
-                .into(headerImage)
+
+
+          //  Glide.with(headerImage.context)
+               // .load(model.photo)
+               // .placeholder(R.drawable.image_par_defaut)
+              //  .error(R.drawable.image_par_defaut)
+              //  .into(headerImage)
 
             likeButton.setOnClickListener {
                 listener.onItemClick(model.id)

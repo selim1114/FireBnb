@@ -1,6 +1,7 @@
 package com.example.firebnb.présentation.vue
 import android.os.Build
 import android.os.Bundle
+import android.util.Log
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
@@ -76,5 +77,7 @@ class AccueilVue : Fragment(), AccueilAdapter.OnItemClickListener {
 
     override fun onItemClick(id: String) {
         présentateur.ProprieteSelectionnéeParId(id)
+        Log.d("propriété selectionnée","click")
+
     }
 }

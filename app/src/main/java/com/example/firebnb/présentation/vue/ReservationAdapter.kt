@@ -53,11 +53,11 @@ class ReservationAdapter(
             ville.text = reservation.ville
             pays.text = reservation.pays
             prixTotal.text = "Prix total : ${reservation.prix} €"
-            Glide.with(imageEnTete.context)
-                .load(reservation.imageUrl)
-                .placeholder(R.drawable.image_par_defaut)
-                .error(R.drawable.image_par_defaut)
-                .into(imageEnTete)
+            //Glide.with(imageEnTete.context)
+                //.load(reservation.imageUrl)
+                //.placeholder(R.drawable.image_par_defaut)
+               // .error(R.drawable.image_par_defaut)
+              //  .into(imageEnTete)
 
             val daysUntilArrival = ChronoUnit.DAYS.between(LocalDate.now(), reservation.dateArrivee)
             val etatText = when (reservation.status) {
