@@ -11,7 +11,8 @@ Projet réalisé en **équipe**.
 - Affiche la liste des **propriétés disponibles prochainement**.  
 - Chaque propriété peut être cliquée pour consulter ses **détails complets**.  
 - Exemple :  
-<img width="283" height="546" alt="image" src="https://github.com/user-attachments/assets/db8ca724-8910-4057-9b88-52c046ede54b" />
+<img width="384" height="647" alt="image" src="https://github.com/user-attachments/assets/c9d6587d-dd76-4254-a6ed-87570c6bd018" />
+
 
 ---
 
@@ -20,10 +21,13 @@ Projet réalisé en **équipe**.
 - Une **image** illustre la propriété sélectionnée.  
 - Un **calendrier** permet de choisir une date disponible et d’**ajouter une réservation dans le calendrier local** du téléphone.  
 - Exemple :  
-  <img width="316" height="587" alt="image" src="https://github.com/user-attachments/assets/22094832-1a73-4221-b35d-023c1640bdcc" />
-  <img width="323" height="587" alt="image" src="https://github.com/user-attachments/assets/4dcc4666-b5a5-4daf-841a-2db9f9af36f9" />
-  <img width="327" height="575" alt="image" src="https://github.com/user-attachments/assets/3a09d2de-c2e2-4c38-b483-b2af7c8c533e" />
-  <img width="325" height="564" alt="image" src="https://github.com/user-attachments/assets/265138d6-9518-4d8b-b545-eb950a86835e" />
+<img width="372" height="648" alt="image" src="https://github.com/user-attachments/assets/1f360b7e-6ea0-4a21-945f-198be09b462b" />
+<img width="341" height="651" alt="image" src="https://github.com/user-attachments/assets/1a33c7a2-7cfc-4ddc-aa9b-0e8c345fcf77" />
+<img width="339" height="651" alt="image" src="https://github.com/user-attachments/assets/893e6b81-b810-4c04-91f2-467a9f03b2b8" />
+<img width="364" height="645" alt="image" src="https://github.com/user-attachments/assets/47c67ae9-ba62-447c-aaba-585ac626106a" />
+
+
+
 
 
 ---
@@ -33,8 +37,9 @@ Projet réalisé en **équipe**.
 - Historique des **réservations passées**.  
 - Gestion simple et intuitive pour suivre ses séjours.  
 - Exemple :  
-  <img width="337" height="576" alt="image" src="https://github.com/user-attachments/assets/77e1f2ac-2c6e-4395-af6e-39265f5e36f3" />
-  <img width="314" height="556" alt="image" src="https://github.com/user-attachments/assets/a0543789-05b5-4690-ba2e-481c867336d0" />
+<img width="360" height="650" alt="image" src="https://github.com/user-attachments/assets/bacfe0f3-4dcb-494d-a36d-41d612401303" />
+<img width="348" height="650" alt="image" src="https://github.com/user-attachments/assets/22e86bac-cffd-411f-bb83-1238e086b956" />
+
 
 
 ---
@@ -42,10 +47,9 @@ Projet réalisé en **équipe**.
 ### ⭐ Favoris  
 - Possibilité de **liker une propriété** pour la conserver en favoris.  
 - Les propriétés ajoutées en favoris pourront être **réservées plus tard** facilement.  
-- Exemple :  
-  
-<img width="336" height="568" alt="image" src="https://github.com/user-attachments/assets/db654109-e8d2-4b62-a721-1155cfc1430c" />
-<img width="302" height="546" alt="image" src="https://github.com/user-attachments/assets/e147dd54-1840-42cc-9ad5-377a4771ef34" />
+- Exemple :
+<img width="354" height="649" alt="image" src="https://github.com/user-attachments/assets/dd2c69bf-ad3f-487a-ac76-84b4c386223a" />
+<img width="347" height="648" alt="image" src="https://github.com/user-attachments/assets/3bd823c8-e334-4468-b4f5-708b9b1cfa99" />
 
 
 ---
